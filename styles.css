@@ -1,0 +1,28 @@
+header {
+    text-align: center;
+    font-size: 32pt;
+    padding: 8px 0px;
+    font-family: Impact, sans-serif;
+}
+
+* {
+    background-color: #111518;
+    color: white;
+    font-family: Impact, sans-serif;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.wrap-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 0px 15px;
+    margin: 0px 10pt;
+}
