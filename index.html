@@ -1,27 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="sk">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> GYM </title>
+    <title>Fitness Center</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header> FITNESS CENTER </header>
-    <hr> 
+    <header class="site-header">
+        <a class="shield" href="index.html" aria-label="Fitness Center domov">FC</a>
+        <a class="brand" href="index.html">FITNESS CENTER</a>
+        <a class="account-icon" href="signup.html" aria-label="Odpri profil"></a>
+    </header>
 
-    <div class="wrap-screen">
-        <div class="nav-buttons">   
-            <button>DOMOV</button>
-            <button>LOKACIJE</button>
-            <button>CENIK</button>
-            <button>KONTAKT</button>
-            <button>VPIŠI SE</button>
-        </div>
-    </div>
-<hr>
+    <nav class="main-nav" aria-label="Hlavná navigácia">
+        <a class="active" href="index.html" aria-current="page">DOMOV</a>
+        <a href="locations.html">LOKACIJE</a>
+        <a href="pricing.html">CENIK</a>
+        <a href="contact.html">KONTAKT</a>
+        <a href="signup.html">VPIŠI SE</a>
+    </nav>
 
-    <img class="hero-image" src="hero-image.jpg" alt="Fitness center">
+    <main id="top">
+        <section class="hero" id="home">
+            <h1>NAJVEČJI FITNESS V SLOVENIJI</h1>
+        </section>
 
+        <section class="intro" id="location">
+            <p>Največji in najboljše opremljen fitness v sloveniji, ponujamo številne fitness in cardio naprave,<br class="desktop-break"> savno in druge wellness prostore, različne napitke in lorem ipsum dolor sit amet, consectetur<br class="desktop-break"> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br class="desktop-break"> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute<br class="desktop-break"> irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint<br class="desktop-break"> occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+
+        <section class="pricing" id="pricing">
+            <article class="price-card">
+                <h2>Basics Paket</h2>
+                <div class="card-rule"></div>
+                <ul>
+                    <li>-vstop do fitnesa</li>
+                    <li>-omarica</li>
+                    <li>-se neki</li>
+                </ul>
+                <a class="card-button" href="signup.html">Vpiši se</a>
+            </article>
+            <article class="price-card">
+                <h2>Basics Paket</h2>
+                <div class="card-rule"></div>
+                <ul>
+                    <li>-vstop do fitnesa</li>
+                    <li>-omarica</li>
+                    <li>-se neki</li>
+                </ul>
+                <a class="card-button" href="signup.html">Vpiši se</a>
+            </article>
+            <article class="price-card">
+                <h2>Basics Paket</h2>
+                <div class="card-rule"></div>
+                <ul>
+                    <li>-vstop do fitnesa</li>
+                    <li>-omarica</li>
+                    <li>-se neki</li>
+                </ul>
+                <a class="card-button" href="signup.html">Vpiši se</a>
+            </article>
+        </section>
+    </main>
+
+    <footer></footer>
 </body>
-
 </html>
